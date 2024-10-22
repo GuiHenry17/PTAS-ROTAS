@@ -19,7 +19,7 @@ app.get('/login', (req, res) => {
 })
 
 app.get('/admin', (req, res) => {
-    res.send('<h1>Erro:105</h1><h1>Página Administrativa (SEM ACESSO)</h1>')
+    res.send('<h1>Error 403</h1><h1>Página Administrativa (SEM ACESSO)</h1>')
 })
 
 const PORT = process.env.PORT || 3000;
